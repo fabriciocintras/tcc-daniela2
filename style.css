@@ -1,0 +1,80 @@
+body{
+    padding: 0;margin: 0;
+    background: rgb(207, 198, 184);
+    box-sizing: border-box;
+}
+h1{
+    font-size: 1em;
+    padding: 15px 0;
+}
+.corpo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width:21cm;
+    height: 30cm;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 1em;
+
+}
+.corpo p{
+    font-size: 16px;
+}
+.corpo h1{
+    font-weight: bold;
+    text-align: center;
+    
+}
+.folhaSulfite{
+   background: rgb(255, 255, 255);
+    width:21cm;
+    height: 30cm;
+    padding: 5px 0;
+    text-align: center;
+    margin: 0 auto;
+    margin: 5px 0;
+
+}
+.folhaSulfite p{
+}
+.folhaSulfite h1{
+    font-weight: bold;
+    text-align: center;
+}
+.capa{
+    width: 100%;
+    display: flex;
+    flex-direction: column; justify-content: center;
+    align-items: center;
+}
+.capa p{
+    padding: 20px 0;
+}
+.indice{
+    width: 100%;
+    display: flex;
+    flex-direction: column; justify-content: center;
+    align-items: center;
+}
+.conteudo{
+    padding: 80px 20% 0 20%;
+    box-sizing: border-box;
+    
+    text-align: justify;
+}
+.conteudo h1,p{
+}
+.conteudo h1{
+    font-weight: bolder;
+}
+.indiceCentralizado{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    line-height: 0px;
+}
